@@ -1,1 +1,1 @@
-this is README file for python data structure
+# Python - Data Structures: Lists, Tuples
