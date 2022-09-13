@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Module Square"""
+""" Module Square """
 
 
 class Square:
-    """Square is defined by shape
-    
-    Attributes:
-        size (int)/: size of square
+    """ Square is defined by shape
+
+        Attributes:
+        size (int): size of square
     """
     def __init__(self, size):
         """
