@@ -1,0 +1,120 @@
+er@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+$ vi 3-square.py
+
+user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+$ git add .
+warning: LF will be replaced by CRLF in 0x06-python-classes/3-square.py.
+The file will have its original line endings in your working directory
+
+user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+$ git commit -m "first class"
+[master db3416f] first class
+ 1 file changed, 28 insertions(+)
+  create mode 100644 0x06-python-classes/3-square.py
+
+  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+  $ git push
+  Enumerating objects: 6, done.
+  Counting objects: 100% (6/6), done.
+  Delta compression using up to 2 threads
+  Compressing objects: 100% (4/4), done.
+  Writing objects: 100% (4/4), 621 bytes | 310.00 KiB/s, done.
+  Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+  To https://github.com/enochyal/alx-higher_level_programming.git
+     e4975a7..db3416f  master -> master
+
+     user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+     $ vi 3-square.py
+
+     user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+     $ vi 4-square.py
+
+     user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+     $ git add .
+     warning: LF will be replaced by CRLF in 0x06-python-classes/4-square.py.
+     The file will have its original line endings in your working directory
+
+     user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+     $ git commit -m "first class"
+     [master 6f781c2] first class
+      1 file changed, 59 insertions(+)
+       create mode 100644 0x06-python-classes/4-square.py
+
+       user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+       $ git push
+       Enumerating objects: 6, done.
+       Counting objects: 100% (6/6), done.
+       Delta compression using up to 2 threads
+       Compressing objects: 100% (4/4), done.
+       Writing objects: 100% (4/4), 729 bytes | 243.00 KiB/s, done.
+       Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+       remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+       To https://github.com/enochyal/alx-higher_level_programming.git
+          db3416f..6f781c2  master -> master
+
+	  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+	  $ ls
+	  0-square.py*                101-square.py*  4-square.py*  README.md
+	  1-square.py*                2-square.py*    5-square.py*
+	  100-singly_linked_list.py*  3-square.py*    6-square.py*
+
+	  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+	  $ git add .
+
+	  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+	  $ git commit -m "first on class"
+	  [master be445b2] first on class
+	   4 files changed, 382 insertions(+)
+	    create mode 100644 0x06-python-classes/100-singly_linked_list.py
+	     create mode 100644 0x06-python-classes/101-square.py
+	      create mode 100644 0x06-python-classes/5-square.py
+	       create mode 100644 0x06-python-classes/6-square.py
+
+	       user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+	       $ git push
+	       Enumerating objects: 9, done.
+	       Counting objects: 100% (9/9), done.
+	       Delta compression using up to 2 threads
+	       Compressing objects: 100% (7/7), done.
+	       Writing objects: 100% (7/7), 2.65 KiB | 905.00 KiB/s, done.
+	       Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+	       remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+	       To https://github.com/enochyal/alx-higher_level_programming.git
+	          6f781c2..be445b2  master -> master
+
+		  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		  $ vi 103-magic_class.py
+
+		  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		  $ git add .
+		  warning: LF will be replaced by CRLF in 0x06-python-classes/103-magic_class.py.
+		  The file will have its original line endings in your working directory
+
+		  user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		  $ git commit -m "first on class"
+		  [master 1bbdb32] first on class
+		   1 file changed, 23 insertions(+)
+		    create mode 100644 0x06-python-classes/103-magic_class.py
+
+		    user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		    $ git push
+		    Enumerating objects: 6, done.
+		    Counting objects: 100% (6/6), done.
+		    Delta compression using up to 2 threads
+		    Compressing objects: 100% (4/4), done.
+		    Writing objects: 100% (4/4), 645 bytes | 322.00 KiB/s, done.
+		    Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+		    remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+		    To https://github.com/enochyal/alx-higher_level_programming.git
+		       be445b2..1bbdb32  master -> master
+
+		       user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		       $ ls
+		       0-square.py*                101-square.py*       3-square.py*  6-square.py*
+		       1-square.py*                103-magic_class.py*  4-square.py*  README.md
+		       100-singly_linked_list.py*  2-square.py*         5-square.py*
+
+		       user@DESKTOP-QCER1KM MINGW64 ~/zero_day/v/alx-higher_level_programming/0x06-python-classes (master)
+		       $ vi
+
