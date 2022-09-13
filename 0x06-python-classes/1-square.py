@@ -1,18 +1,11 @@
 #!/usr/bin/python3
-""" Module Square """
+"""
+This module defines a suqare based on task 0 (0-square.py)
+"""
 
 
 class Square:
-    """ Square is defined by shape
-
-        Attributes:
-        size (int): size of square
-    """
+    """ Square class """
     def __init__(self, size):
-        """
-        Initialize method 
-
-        Args:
-            size(int): size of square
-        """
+        """ Class initialization """
         self.__size = size

@@ -1,28 +1,25 @@
 #!/usr/bin/python3
-""" Module Square """
+"""A module for working with squares.
+"""
+
 
 class Square:
-    """ Sauare class is defined by shape
-
-        Attrbute:
-            size (int): int to assign to square size
+    """Represents a square with for 4 equal sides
     """
     def __init__(self, size=0):
+        """Initializes a Square with a given size.
         """
-        Initilize method
-
-        Args:
-            size (int): int to assign to square size
-        Raises:
-            TypeError: if size is not int
-            ValueError: size less than 0
-        """
-        if type(size) != int:
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
+        if not isinstance(size, int):
+            raise TypeError('size must be an integer')
         else:
-            self.__size = size
+            if size < 0:
+                raise ValueError('size must be >= 0')
+            else:
+                self.__size = size
 
     def area(self):
-        return self.__size * self.__size
+        """Computes the area of this Square.
+        Returns:
+            int: The area of the Square.
+        """
+        return self.__size ** 2
